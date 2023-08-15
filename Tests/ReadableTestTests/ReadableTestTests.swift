@@ -3,6 +3,6 @@ import XCTest
 
 final class ReadableTestTests: XCTestCase {
     func testExample() throws {
-        XCTAssertTrue(true)
+        XCTAssertFalse(false)
     }
 }
