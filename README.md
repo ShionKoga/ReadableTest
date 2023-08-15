@@ -7,4 +7,4 @@
 [![Swift Compatibility](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FShionKoga%2FReadableTest%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/ShionKoga/ReadableTest)
 [![Platform Compatibility](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FShionKoga%2FReadableTest%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/ShionKoga/ReadableTest)
 
-This software is released under the MIT License, see [LICENSE.txt](https://github.com/ShionKoga/ReadableTest/LICENSE).
+This software is released under the MIT License, see [LICENSE](/LICENSE).
