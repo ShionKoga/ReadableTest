@@ -20,9 +20,6 @@ class ItemListViewModel: ObservableObject {
         items.append(item)
     }
 }
-```
-
-```Swift
 
 // Test
 class ItemListViewModelTests: XCTestCase {
@@ -50,7 +47,7 @@ class ItemListViewModelTests: XCTestCase {
 Testing Combine's Publisher only with XCTest have a couple of drawbacks:
 
 1. Since we are testing the Publisher, of course we need to subscribe to it.
-2. To avoid freeing memory immediately, it must be stored in a ｓet of `AnyCancellable` defined outside the function
+2. To avoid freeing memory immediately, it must be stored in a set of `AnyCancellable` defined outside the function
 3. Since it is an asynchronous test, we have to instantiate `XCTestExpectation` and wait for the `fullfill()` to be executed
 
 ReadableTest addresses these drowbacks.
@@ -73,7 +70,7 @@ class ItemListViewModel: ObservableObject {
 import ReadableTest
 
 class ItemListViewModelTests: ReadableTestCase {
-    func test_after_adding_apple__ViewModel_publishes_new_array_with_appleadded() {
+    func test_after_adding_apple__ViewModel_publishes_new_array_with_apple_added() {
         let viewModel = ItemListViewModel()
         
         
