@@ -9,4 +9,8 @@ class XCTAssertion<T: Equatable>: Assertion<T> {
     ) where T : Equatable {
         XCTAssertEqual(expression1, expression2, file: file, line: line)
     }
+    
+    override func assertNil(_ expression: T?, file: StaticString, line: UInt) {
+        XCTAssertNil(expression, file: file, line: line)
+    }
 }

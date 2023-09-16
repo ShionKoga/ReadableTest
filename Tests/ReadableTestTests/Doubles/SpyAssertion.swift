@@ -12,4 +12,13 @@ class SpyAssertion<T: Equatable>: Assertion<T> {
         assertEqual_argumnent_file = file
         assertEqual_argumnent_line = line
     }
+    
+    var assertNil_argumnent_expression: T? = nil
+    var assertNil_argumnent_file: StaticString? = nil
+    var assertNil_argumnent_line: UInt? = nil
+    override func assertNil(_ expression: T?, file: StaticString, line: UInt) {
+        assertNil_argumnent_expression = expression
+        assertNil_argumnent_file = file
+        assertNil_argumnent_line = line
+    }
 }
